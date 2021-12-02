@@ -8,9 +8,9 @@ readme = this_file.parent / 'README.md'
 
 setup(
     name='keras-autodoc',
-    version='0.7.0',
+    version='0.7.1',
     packages=find_packages(),
-    install_requires=['markdown', 'sphinx', 'black==20.8b1'],
+    install_requires=['markdown', 'sphinx==3.5.4', 'black==20.8b1'],
     package_data={'': ['README.md']},
     author='The Keras team',
     author_email='gabrieldemarmiesse@gmail.com',
